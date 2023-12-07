@@ -148,7 +148,7 @@ def approval():
 
   try:
 
-    httpCaht = requests.get("https://NADIRtricker.blogspot.com/2023/07/atf-tool.html").text
+    httpCaht = requests.get("https://github.com/NadirTricker/Nadi/blob/main/nadi.py").text
 
     if id in httpCaht:
 
